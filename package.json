@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "concurrently \"tsc --watch index.ts users.ts\" \"nodemon index.js\"",
-    "start": "tsc index.ts users.ts && node index.js"
+    "build": "tsc index.ts users.ts ",
+    "start": "node index.js"
   },
   "dependencies": {
     "concurrently": "^6.4.0",
