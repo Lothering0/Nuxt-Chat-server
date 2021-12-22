@@ -1,6 +1,6 @@
 # Chat (server)
 
-[Main page](https://github.com/Lothering0/Nuxt-Chat).
+> :warning: This is page of server side of project and has information only about back-end. To full information see [main page](https://github.com/Lothering0/Nuxt-Chat)!
 
 ## Technologies
 * [TypeScript](https://www.typescriptlang.org/)
