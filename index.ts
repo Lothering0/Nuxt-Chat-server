@@ -7,7 +7,7 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://nuxt-chat0.herokuapp.com',
+    origin: process.env.FRONTEND_ADDRESS,
     methods: ['GET', 'POST']
   }
 })
