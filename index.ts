@@ -15,7 +15,7 @@ const users = require('./users')()
 const PORT = process.env.PORT || 9000
 
 app.get('/', (req, res) => {
-  res.send('<h3>This is back-end server of nuxt-chat project. <a href="https://nuxt-chat0.herokuapp.com">Click to go to the main page</a>.</h3>')
+  res.send(`<h3>This is back-end server of nuxt-chat project. <a href="${process.env.FRONTEND_ADDRESS}">Click to go to the main page</a>.</h3>`)
 })
 
 io.on('connect_error', err => {
